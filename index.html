@@ -1,0 +1,1423 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>爆料每日免费在线观看 - 官方视频门户,每日精选爆料影像</title>
+<meta name="description" content="爆料每日免费在线观看是专注每日爆料影像的官方视频门户，聚合原创创作者、城市现场与深度故事，打造值得信赖的内容社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e03e2f'/%3E%3Cpath d='M24 18l22 14-22 14z' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --blk-ink:#141414;
+  --blk-ink-soft:#3a3a3a;
+  --blk-paper:#f6f4ef;
+  --blk-paper-2:#ffffff;
+  --blk-red:#e03e2f;
+  --blk-red-deep:#b0291c;
+  --blk-line:#d9d5cc;
+  --blk-grey:#6f6b63;
+  --blk-shadow:0 10px 30px rgba(20,20,20,.08);
+  --blk-radius:14px;
+  --blk-sticky:96px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--blk-sticky)}
+body{
+  margin:0;
+  background:var(--blk-paper);
+  color:var(--blk-ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:800;letter-spacing:.01em}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+.blk-wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
+
+/* ---------- sticky header block ---------- */
+.blk-sticky{position:sticky;top:0;z-index:80;box-shadow:0 2px 0 rgba(20,20,20,.06)}
+.blk-announce{
+  background:var(--blk-ink);
+  color:#f4f1ea;
+  font-size:13.5px;
+  letter-spacing:.01em;
+}
+.blk-announce-inner{
+  display:flex;align-items:center;gap:14px;
+  padding:9px 0;
+}
+.blk-announce-tag{
+  flex:none;background:var(--blk-red);color:#fff;
+  font-weight:800;font-size:12px;letter-spacing:.08em;
+  padding:2px 9px;border-radius:4px;
+}
+.blk-announce-track{
+  display:flex;gap:34px;overflow:hidden;white-space:nowrap;flex:1;
+  mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+}
+.blk-announce-track span{opacity:.92}
+.blk-announce-track b{color:#ffd9d4;font-weight:700}
+
+.blk-header{background:rgba(255,255,255,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--blk-line)}
+.blk-header-inner{display:flex;align-items:center;gap:26px;padding:14px 0}
+.blk-logo{display:flex;align-items:center;gap:10px;flex:none}
+.blk-logo-mark{
+  width:40px;height:40px;border-radius:11px;background:var(--blk-red);
+  display:grid;place-items:center;color:#fff;font-weight:900;font-size:19px;
+  box-shadow:inset 0 -3px 0 rgba(0,0,0,.18);
+}
+.blk-logo-text{display:flex;flex-direction:column;line-height:1.1}
+.blk-logo-text strong{font-size:17px;letter-spacing:.04em}
+.blk-logo-text em{font-style:normal;font-size:10.5px;color:var(--blk-grey);letter-spacing:.22em;margin-top:3px}
+.blk-nav{display:flex;gap:4px;margin-left:6px;flex-wrap:wrap}
+.blk-nav a{
+  font-size:14.5px;font-weight:600;color:var(--blk-ink-soft);
+  padding:7px 11px;border-radius:8px;transition:background .18s,color .18s;
+}
+.blk-nav a:hover{background:#f0ece4;color:var(--blk-red-deep)}
+.blk-tools{display:flex;align-items:center;gap:10px;margin-left:auto}
+.blk-search{position:relative;display:flex;align-items:center}
+.blk-search input{
+  width:210px;border:1px solid var(--blk-line);background:#faf8f4;
+  border-radius:999px;padding:9px 40px 9px 15px;font-size:13.5px;color:var(--blk-ink);
+  outline:none;transition:border-color .2s,box-shadow .2s,width .2s;
+}
+.blk-search input:focus{border-color:var(--blk-red);box-shadow:0 0 0 3px rgba(224,62,47,.14);width:250px;background:#fff}
+.blk-search button{
+  position:absolute;right:5px;top:50%;transform:translateY(-50%);
+  border:0;background:var(--blk-red);color:#fff;width:29px;height:29px;border-radius:50%;
+  display:grid;place-items:center;font-size:14px;
+}
+.blk-search-feedback{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--blk-line);
+  border-radius:10px;box-shadow:var(--blk-shadow);padding:10px 12px;font-size:13px;color:var(--blk-grey);
+  display:none;z-index:90;
+}
+.blk-search-feedback.on{display:block}
+.blk-search-feedback strong{color:var(--blk-red-deep)}
+.blk-cta{
+  border:0;background:var(--blk-ink);color:#fff;font-weight:700;font-size:13.5px;
+  padding:10px 18px;border-radius:999px;transition:transform .16s,background .18s;
+}
+.blk-cta:hover{background:var(--blk-red);transform:translateY(-1px)}
+.blk-burger{
+  display:none;border:1px solid var(--blk-line);background:#fff;border-radius:10px;
+  width:42px;height:40px;align-items:center;justify-content:center;flex-direction:column;gap:4px;
+}
+.blk-burger i{display:block;width:18px;height:2px;background:var(--blk-ink);border-radius:2px;transition:.2s}
+.blk-burger[aria-expanded="true"] i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.blk-burger[aria-expanded="true"] i:nth-child(2){opacity:0}
+.blk-burger[aria-expanded="true"] i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.blk-mobile-nav{display:none;border-top:1px solid var(--blk-line);background:#fff}
+.blk-mobile-nav.on{display:block}
+.blk-mobile-nav .blk-wrap{padding:10px 0 18px;display:grid;gap:2px}
+.blk-mobile-nav a{padding:11px 12px;border-radius:9px;font-weight:600;font-size:15px}
+.blk-mobile-nav a:hover{background:#f3efe8}
+
+/* ---------- hero ---------- */
+.blk-hero{padding:46px 0 20px}
+.blk-hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:46px;align-items:center}
+.blk-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:9px;background:#fff;border:1px solid var(--blk-line);
+  border-radius:999px;padding:5px 14px 5px 6px;font-size:12.5px;font-weight:700;color:var(--blk-red-deep);
+  letter-spacing:.04em;
+}
+.blk-hero-eyebrow span{background:var(--blk-red);color:#fff;border-radius:999px;padding:2px 9px;font-size:11.5px;letter-spacing:.08em}
+.blk-hero h1{
+  font-size:clamp(2.1rem,4.6vw,3.55rem);
+  letter-spacing:-.01em;margin:18px 0 14px;
+}
+.blk-hero h1 mark{background:none;color:var(--blk-red);}
+.blk-hero-lead{font-size:16.5px;color:var(--blk-ink-soft);max-width:34em;font-weight:500}
+.blk-hero-desc{margin-top:16px;color:var(--blk-grey);font-size:14.5px;max-width:36em}
+.blk-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.blk-btn{
+  border:0;border-radius:999px;font-weight:700;font-size:14.5px;padding:12px 24px;
+  display:inline-flex;align-items:center;gap:8px;transition:transform .16s,box-shadow .2s,background .2s;
+}
+.blk-btn:hover{transform:translateY(-2px)}
+.blk-btn-primary{background:var(--blk-red);color:#fff;box-shadow:0 8px 20px rgba(224,62,47,.26)}
+.blk-btn-primary:hover{background:var(--blk-red-deep)}
+.blk-btn-ghost{background:#fff;color:var(--blk-ink);border:1px solid var(--blk-line)}
+.blk-btn-ink{background:var(--blk-ink);color:#fff}
+.blk-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:34px}
+.blk-stat{background:#fff;border:1px solid var(--blk-line);border-radius:var(--blk-radius);padding:14px 16px}
+.blk-stat b{display:block;font-size:24px;letter-spacing:-.01em;color:var(--blk-ink)}
+.blk-stat b i{font-style:normal;font-size:12px;color:var(--blk-red);margin-left:3px;font-weight:700}
+.blk-stat small{color:var(--blk-grey);font-size:12.5px;letter-spacing:.03em}
+.blk-hero-visual{position:relative}
+.blk-hero-visual figure{margin:0;border-radius:22px;overflow:hidden;box-shadow:0 24px 54px rgba(20,20,20,.20)}
+.blk-hero-visual img{width:100%;aspect-ratio:4/3.05;object-fit:cover}
+.blk-hero-badge{
+  position:absolute;left:-16px;bottom:26px;background:var(--blk-ink);color:#fff;
+  border-radius:14px;padding:12px 18px;box-shadow:var(--blk-shadow);max-width:250px;
+}
+.blk-hero-badge strong{display:block;font-size:14px;color:#ffd9d4;letter-spacing:.06em}
+.blk-hero-badge span{font-size:12.5px;opacity:.86}
+.blk-hero-note{
+  position:absolute;right:-10px;top:-14px;background:var(--blk-red);color:#fff;font-weight:800;
+  font-size:12.5px;letter-spacing:.1em;padding:7px 14px;border-radius:8px;transform:rotate(3deg);
+}
+
+/* ---------- section shell ---------- */
+.blk-section{padding:56px 0}
+.blk-section.alt{background:#fff;border-top:1px solid var(--blk-line);border-bottom:1px solid var(--blk-line)}
+.blk-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:30px;flex-wrap:wrap}
+.blk-head-txt{max-width:44em}
+.blk-kicker{
+  font-size:12px;font-weight:800;letter-spacing:.22em;color:var(--blk-red);text-transform:uppercase;
+  display:block;margin-bottom:9px;
+}
+.blk-head h2{font-size:clamp(1.5rem,2.7vw,2.1rem)}
+.blk-head p{color:var(--blk-grey);font-size:14.5px;margin-top:10px}
+.blk-head-aside{font-size:13px;color:var(--blk-grey);border-left:3px solid var(--blk-red);padding-left:12px}
+
+/* ---------- spotlight ---------- */
+.blk-spotlight{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;align-items:stretch}
+.blk-focus{
+  background:var(--blk-ink);color:#fff;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;
+  box-shadow:var(--blk-shadow);
+}
+.blk-focus figure{margin:0;position:relative}
+.blk-focus img{width:100%;aspect-ratio:16/9.4;object-fit:cover}
+.blk-focus-play{
+  position:absolute;left:18px;bottom:18px;background:rgba(224,62,47,.94);color:#fff;
+  border-radius:999px;font-size:12.5px;font-weight:700;padding:7px 15px;letter-spacing:.06em;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.blk-focus-body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:12px;flex:1}
+.blk-tags{display:flex;flex-wrap:wrap;gap:7px}
+.blk-tag{
+  font-size:11.5px;font-weight:700;letter-spacing:.04em;padding:3px 10px;border-radius:999px;
+  background:#efeae1;color:#5a564e;border:1px solid #e2ddd3;
+}
+.blk-tag.red{background:rgba(224,62,47,.1);color:var(--blk-red-deep);border-color:rgba(224,62,47,.25)}
+.blk-focus h3{font-size:1.32rem;line-height:1.35}
+.blk-focus p{font-size:14px;color:#c9c4ba}
+.blk-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:#9c978d;align-items:center}
+.blk-meta b{color:#fff;font-weight:700}
+.blk-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto;padding-top:8px}
+.blk-act{
+  border:1px solid #3a3a3a;background:#1f1f1f;color:#ded9d0;border-radius:999px;
+  font-size:12.5px;font-weight:600;padding:7px 14px;display:inline-flex;align-items:center;gap:6px;
+  transition:background .18s,color .18s,border-color .18s;
+}
+.blk-act:hover{background:#2c2c2c;color:#fff}
+.blk-act.liked{background:var(--blk-red);border-color:var(--blk-red);color:#fff}
+.blk-act.saved{background:#fff;border-color:#fff;color:var(--blk-ink)}
+
+.blk-spot-side{display:flex;flex-direction:column;gap:14px}
+.blk-mini{
+  background:#fff;border:1px solid var(--blk-line);border-radius:var(--blk-radius);
+  padding:16px 18px;display:grid;grid-template-columns:64px minmax(0,1fr);gap:14px;
+  transition:transform .18s,box-shadow .2s,border-color .2s;flex:1;
+}
+.blk-mini:hover{transform:translateY(-3px);box-shadow:var(--blk-shadow);border-color:#c9c3b7}
+.blk-mini figcaption{display:flex;flex-direction:column;gap:6px;min-width:0}
+.blk-mini h4{font-size:14.5px;line-height:1.4}
+.blk-mini small{color:var(--blk-grey);font-size:12px}
+.blk-thumb{border-radius:10px;overflow:hidden;aspect-ratio:1/1}
+.blk-thumb img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- video list ---------- */
+.blk-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.blk-vcard{
+  background:#fff;border:1px solid var(--blk-line);border-radius:var(--blk-radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s,border-color .2s;
+}
+.blk-vcard:hover{transform:translateY(-4px);box-shadow:var(--blk-shadow);border-color:#c9c3b7}
+.blk-vcard figure{margin:0;overflow:hidden;position:relative}
+.blk-vcard img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .4s}
+.blk-vcard:hover img{transform:scale(1.04)}
+.blk-vcard-time{
+  position:absolute;right:10px;bottom:10px;background:rgba(20,20,20,.82);color:#fff;
+  font-size:11.5px;padding:2px 8px;border-radius:5px;letter-spacing:.04em;
+}
+.blk-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.blk-vcard h3{font-size:15.5px;line-height:1.45}
+.blk-vcard p{font-size:13.5px;color:var(--blk-grey);flex:1}
+.blk-vfoot{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px dashed var(--blk-line);padding-top:11px;font-size:12.5px;color:var(--blk-grey)}
+.blk-vfoot .blk-author{display:flex;align-items:center;gap:7px;color:var(--blk-ink-soft);font-weight:600}
+.blk-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:11.5px;font-weight:800;color:#fff;flex:none;letter-spacing:0;
+}
+.blk-actions.light .blk-act{background:#faf8f4;border-color:var(--blk-line);color:#5a564e}
+.blk-actions.light .blk-act:hover{background:#f0ece4;color:var(--blk-ink)}
+.blk-actions.light .blk-act.liked{background:var(--blk-red);border-color:var(--blk-red);color:#fff}
+.blk-actions.light .blk-act.saved{background:var(--blk-ink);border-color:var(--blk-ink);color:#fff}
+
+/* video text rows */
+.blk-rows{display:grid;gap:10px;margin-top:26px}
+.blk-row{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;
+  display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:14px;align-items:center;
+  padding:13px 17px;transition:background .18s,border-color .18s,transform .18s;
+}
+.blk-row:hover{background:#fffaf6;border-color:#e8bfb7;transform:translateX(3px)}
+.blk-row-idx{font-weight:900;color:var(--blk-red);font-size:15px;letter-spacing:.02em}
+.blk-row-main{min-width:0}
+.blk-row-main strong{font-size:14.5px;display:block;line-height:1.45}
+.blk-row-main span{font-size:12.5px;color:var(--blk-grey)}
+.blk-row-side{font-size:12.5px;color:var(--blk-grey);white-space:nowrap}
+
+/* ---------- topic / series ---------- */
+.blk-series{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:26px}
+.blk-series-feature{
+  background:#fff;border:1px solid var(--blk-line);border-radius:18px;overflow:hidden;box-shadow:var(--blk-shadow);
+  display:flex;flex-direction:column;
+}
+.blk-series-feature img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.blk-series-body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:13px}
+.blk-series-body h3{font-size:1.22rem}
+.blk-series-body p{font-size:14px;color:var(--blk-grey)}
+.blk-series-list{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;align-content:start}
+.blk-series-item{
+  background:#fff;border:1px solid var(--blk-line);border-radius:14px;padding:17px 19px;
+}
+.blk-series-item header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.blk-series-item h4{font-size:15.5px}
+.blk-status{font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:999px;background:#f4efe7;color:#7a7368;white-space:nowrap}
+.blk-status.live{background:rgba(224,62,47,.12);color:var(--blk-red-deep)}
+.blk-series-item p{font-size:13.5px;color:var(--blk-grey);margin-top:7px}
+.blk-series-item ul{margin-top:10px;display:grid;gap:5px}
+.blk-series-item li{font-size:13px;color:var(--blk-ink-soft);padding-left:16px;position:relative}
+.blk-series-item li::before{content:"";position:absolute;left:2px;top:.72em;width:5px;height:5px;border-radius:50%;background:var(--blk-red)}
+
+/* ---------- creators ---------- */
+.blk-creators{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.blk-creator{
+  background:#fff;border:1px solid var(--blk-line);border-radius:16px;padding:20px;
+  display:flex;flex-direction:column;gap:12px;transition:box-shadow .2s,transform .2s,border-color .2s;
+}
+.blk-creator:hover{box-shadow:var(--blk-shadow);transform:translateY(-3px);border-color:#cabfb2}
+.blk-creator-top{display:flex;align-items:center;gap:13px}
+.blk-creator-ava{
+  width:52px;height:52px;border-radius:16px;display:grid;place-items:center;color:#fff;font-weight:900;font-size:19px;flex:none;
+}
+.blk-creator-top strong{font-size:15.5px;display:block}
+.blk-creator-top small{color:var(--blk-red-deep);font-size:12.5px;font-weight:700;letter-spacing:.03em}
+.blk-creator p{font-size:13.5px;color:var(--blk-grey);flex:1}
+.blk-creator-stats{display:flex;gap:18px;font-size:12.5px;color:var(--blk-grey);border-top:1px dashed var(--blk-line);padding-top:11px}
+.blk-creator-stats b{color:var(--blk-ink);font-size:14px}
+.blk-link-more{
+  border:0;background:none;color:var(--blk-red-deep);font-size:13px;font-weight:700;padding:0;
+  display:inline-flex;align-items:center;gap:5px;
+}
+.blk-link-more:hover{text-decoration:underline}
+
+/* ---------- evaluation ---------- */
+.blk-evals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.blk-eval{
+  background:#fff;border:1px solid var(--blk-line);border-radius:14px;padding:18px 20px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.blk-eval-wide{grid-column:span 2}
+.blk-eval-top{display:flex;align-items:center;gap:10px}
+.blk-eval-top .blk-avatar{width:32px;height:32px;font-size:13px}
+.blk-eval-top b{font-size:13.5px}
+.blk-eval-top small{color:var(--blk-grey);font-size:12px;margin-left:auto}
+.blk-eval p{font-size:14px;color:var(--blk-ink-soft)}
+.blk-stars{color:var(--blk-red);font-size:13px;letter-spacing:2px}
+.blk-quote{
+  background:var(--blk-ink);color:#f2eee7;border-radius:16px;padding:22px 24px;
+  display:flex;flex-direction:column;gap:12px;justify-content:center;
+}
+.blk-quote p{font-size:15px;line-height:1.7}
+.blk-quote cite{font-style:normal;font-size:12.5px;color:#a9a49a;letter-spacing:.04em}
+
+/* ---------- parse / longform ---------- */
+.blk-parse{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:34px;align-items:start}
+.blk-parse h3{font-size:1.16rem;margin:26px 0 10px;color:var(--blk-ink)}
+.blk-parse h3:first-child{margin-top:0}
+.blk-parse p{font-size:14.5px;color:#403c36;margin-bottom:12px}
+.blk-parse p strong{color:var(--blk-red-deep)}
+.blk-aside-stack{display:grid;gap:16px;position:sticky;top:calc(var(--blk-sticky) + 18px)}
+.blk-aside-card{background:#fff;border:1px solid var(--blk-line);border-radius:14px;padding:18px 20px}
+.blk-aside-card h4{font-size:14.5px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.blk-aside-card h4::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--blk-red)}
+.blk-aside-card ul{display:grid;gap:9px}
+.blk-aside-card li{font-size:13.5px;color:var(--blk-grey);display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--blk-line);padding-bottom:8px}
+.blk-aside-card li:last-child{border-bottom:0;padding-bottom:0}
+.blk-aside-card li b{color:var(--blk-ink);font-weight:700}
+
+/* ---------- timeline / news ---------- */
+.blk-news{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;align-items:start}
+.blk-timeline{position:relative;padding-left:22px}
+.blk-timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--blk-red),#e6e1d8)}
+.blk-tl-item{position:relative;padding-bottom:22px}
+.blk-tl-item:last-child{padding-bottom:0}
+.blk-tl-item::before{
+  content:"";position:absolute;left:-22px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--blk-red);
+}
+.blk-tl-item time{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--blk-red-deep)}
+.blk-tl-item h4{font-size:15px;margin:5px 0 4px}
+.blk-tl-item p{font-size:13.5px;color:var(--blk-grey)}
+.blk-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.blk-partner{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;padding:18px;
+  display:flex;flex-direction:column;gap:5px;transition:border-color .2s,transform .2s;
+}
+.blk-partner:hover{border-color:var(--blk-red);transform:translateY(-2px)}
+.blk-partner b{font-size:14.5px}
+.blk-partner span{font-size:12.5px;color:var(--blk-grey)}
+
+/* ---------- faq ---------- */
+.blk-faq{display:grid;gap:11px;max-width:880px}
+.blk-faq details{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;overflow:hidden;
+}
+.blk-faq summary{
+  cursor:pointer;list-style:none;padding:15px 48px 15px 18px;font-weight:700;font-size:14.5px;position:relative;
+}
+.blk-faq summary::-webkit-details-marker{display:none}
+.blk-faq summary::after{
+  content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);
+  color:var(--blk-red);font-size:19px;font-weight:700;transition:transform .2s;
+}
+.blk-faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.blk-faq details p{padding:0 18px 16px;font-size:13.8px;color:var(--blk-grey)}
+
+/* ---------- footer ---------- */
+.blk-footer{background:var(--blk-ink);color:#b8b3a9;padding:50px 0 26px;margin-top:10px}
+.blk-footer-grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:34px}
+.blk-footer h4{color:#fff;font-size:14px;letter-spacing:.1em;margin-bottom:14px;font-weight:800}
+.blk-footer p{font-size:13.5px;line-height:1.85}
+.blk-footer ul{display:grid;gap:9px}
+.blk-footer a{font-size:13.5px;color:#b8b3a9;transition:color .18s}
+.blk-footer a:hover{color:#fff}
+.blk-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.blk-footer-brand .blk-logo-mark{width:36px;height:36px;border-radius:10px;font-size:17px}
+.blk-footer-brand strong{color:#fff;font-size:16px;letter-spacing:.04em}
+.blk-footer-bottom{
+  border-top:1px solid #2b2b2b;margin-top:34px;padding-top:20px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#8c877e;
+}
+
+/* ---------- modal & toast ---------- */
+.blk-modal{
+  position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;padding:20px;
+  background:rgba(20,20,20,.55);backdrop-filter:blur(3px);
+}
+.blk-modal.on{display:flex}
+.blk-modal-box{
+  background:#fff;border-radius:18px;width:min(560px,100%);padding:26px 26px 22px;position:relative;
+  max-height:86vh;overflow:auto;box-shadow:0 30px 80px rgba(0,0,0,.3);
+}
+.blk-modal-box h3{font-size:1.2rem;margin-bottom:8px}
+.blk-modal-box p.sub{font-size:13.5px;color:var(--blk-grey);margin-bottom:18px}
+.blk-modal-close{
+  position:absolute;right:14px;top:12px;border:0;background:#f3efe8;width:32px;height:32px;border-radius:50%;
+  font-size:17px;color:var(--blk-ink);display:grid;place-items:center;
+}
+.blk-field{display:grid;gap:6px;margin-bottom:13px}
+.blk-field label{font-size:13px;font-weight:700}
+.blk-field input,.blk-field textarea,.blk-field select{
+  border:1px solid var(--blk-line);border-radius:9px;padding:10px 12px;font-size:14px;font-family:inherit;
+  background:#faf8f4;outline:none;transition:border-color .2s,box-shadow .2s;
+}
+.blk-field input:focus,.blk-field textarea:focus,.blk-field select:focus{border-color:var(--blk-red);box-shadow:0 0 0 3px rgba(224,62,47,.13);background:#fff}
+.blk-field textarea{min-height:92px;resize:vertical}
+.blk-share-row{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
+.blk-share-btn{
+  border:1px solid var(--blk-line);background:#faf8f4;border-radius:999px;padding:9px 17px;font-size:13.5px;font-weight:600;
+}
+.blk-share-btn:hover{background:#f0ece4;border-color:var(--blk-red);color:var(--blk-red-deep)}
+.blk-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);z-index:300;
+  background:var(--blk-ink);color:#fff;font-size:13.5px;font-weight:600;padding:11px 22px;border-radius:999px;
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;box-shadow:0 12px 30px rgba(0,0,0,.24);
+}
+.blk-toast.on{opacity:1;transform:translate(-50%,0)}
+.blk-totop{
+  position:fixed;right:22px;bottom:26px;z-index:150;width:46px;height:46px;border-radius:50%;
+  border:0;background:var(--blk-red);color:#fff;font-size:18px;display:grid;place-items:center;
+  box-shadow:0 10px 24px rgba(224,62,47,.36);opacity:0;pointer-events:none;transition:opacity .25s,transform .2s;
+}
+.blk-totop.on{opacity:1;pointer-events:auto}
+.blk-totop:hover{transform:translateY(-3px)}
+
+/* ---------- responsive ---------- */
+@media (max-width:1020px){
+  .blk-hero-grid{grid-template-columns:1fr;gap:34px}
+  .blk-hero-badge{left:12px;bottom:12px}
+  .blk-hero-note{right:10px}
+  .blk-spotlight{grid-template-columns:1fr}
+  .blk-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blk-series{grid-template-columns:1fr}
+  .blk-creators{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blk-evals{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blk-eval-wide{grid-column:span 2}
+  .blk-parse{grid-template-columns:1fr}
+  .blk-aside-stack{position:static}
+  .blk-news{grid-template-columns:1fr}
+  .blk-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:820px){
+  .blk-nav{display:none}
+  .blk-header-inner{gap:14px;flex-wrap:wrap}
+  .blk-burger{display:flex}
+  .blk-search input{width:150px}
+  .blk-search input:focus{width:180px}
+}
+@media (max-width:680px){
+  :root{--blk-sticky:112px}
+  .blk-wrap{width:calc(100% - 28px)}
+  .blk-announce-inner{font-size:12.5px;gap:10px}
+  .blk-header-inner{padding:12px 0}
+  .blk-tools{gap:8px}
+  .blk-search{order:3;width:100%}
+  .blk-search input,.blk-search input:focus{width:100%}
+  .blk-search-feedback{position:static;margin-top:8px}
+  .blk-cta{display:none}
+  .blk-stats{grid-template-columns:1fr;gap:10px}
+  .blk-video-grid{grid-template-columns:1fr}
+  .blk-creators{grid-template-columns:1fr}
+  .blk-evals{grid-template-columns:1fr}
+  .blk-eval-wide{grid-column:span 1}
+  .blk-partners{grid-template-columns:1fr}
+  .blk-footer-grid{grid-template-columns:1fr;gap:26px}
+  .blk-row{grid-template-columns:26px minmax(0,1fr);gap:10px}
+  .blk-row-side{grid-column:2;white-space:normal}
+  .blk-section{padding:42px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important;scroll-behavior:auto!important}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="blk-sticky">
+  <div class="blk-announce">
+    <div class="blk-wrap blk-announce-inner">
+      <span class="blk-announce-tag">官方公告</span>
+      <div class="blk-announce-track">
+        <span><b>11月22日新增</b> 爆料每日免费在线观看《城市零点·夜班笔记》全 8 集上线</span>
+        <span><b>共创计划</b> 第 12 期「身边的小现场」开启报名，投稿通道同步开放</span>
+        <span><b>2026 年度口碑榜</b> 提名投票已启动，每人每日可投 3 票</span>
+        <span><b>客户端更新</b> 高清 1080P 下载与离线缓存功能正式开放</span>
+      </div>
+    </div>
+  </div>
+  <header class="blk-header">
+    <div class="blk-wrap blk-header-inner">
+      <a class="blk-logo" href="#blk-top" aria-label="爆料每日免费在线观看 官方首页">
+        <span class="blk-logo-mark">爆</span>
+        <span class="blk-logo-text"><strong>爆料每日</strong><em>BAOLIAO DAILY</em></span>
+      </a>
+      <nav class="blk-nav" aria-label="主导航">
+        <a href="#blk-spotlight">今日焦点</a>
+        <a href="#blk-videos">视频精选</a>
+        <a href="#blk-series">专题企划</a>
+        <a href="#blk-creators">创作者</a>
+        <a href="#blk-parse">品牌解读</a>
+        <a href="#blk-evals">用户口碑</a>
+        <a href="#blk-news">企业动态</a>
+        <a href="#blk-faq">帮助中心</a>
+      </nav>
+      <div class="blk-tools">
+        <div class="blk-search">
+          <input id="blkSearchInput" type="search" placeholder="搜索爆料视频 / 创作者" aria-label="站内搜索">
+          <button type="button" id="blkSearchBtn" aria-label="搜索">⌕</button>
+          <div class="blk-search-feedback" id="blkSearchFeedback" role="status"></div>
+        </div>
+        <button class="blk-cta" type="button" id="blkSubmitBtn">投稿爆料</button>
+        <button class="blk-burger" type="button" id="blkBurger" aria-expanded="false" aria-controls="blkMobileNav" aria-label="展开导航">
+          <i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+    <div class="blk-mobile-nav" id="blkMobileNav">
+      <div class="blk-wrap">
+        <a href="#blk-spotlight">今日焦点</a>
+        <a href="#blk-videos">视频精选</a>
+        <a href="#blk-series">专题企划</a>
+        <a href="#blk-creators">创作者</a>
+        <a href="#blk-parse">品牌解读</a>
+        <a href="#blk-evals">用户口碑</a>
+        <a href="#blk-news">企业动态</a>
+        <a href="#blk-faq">帮助中心</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="blk-top">
+
+  <!-- ============ HERO ============ -->
+  <section class="blk-hero">
+    <div class="blk-wrap blk-hero-grid">
+      <div>
+        <span class="blk-hero-eyebrow"><span>官网</span>短视频内容品牌 · 持续运营 6 年</span>
+        <h1>爆料每日免费在线观看</h1>
+        <p class="blk-hero-lead">一个每天更新现场、故事与深度的视频门户——把镜头交给真实的人，把画面交还给当下。</p>
+        <p class="blk-hero-desc">作为深耕纪实影像领域的原创视频品牌，爆料每日免费在线观看官方网站以“记录真实、陪伴成长”为内核，聚合城市观察、人物访谈、生活实用与创作幕后等多元内容，为创作者与企业搭建高品质内容生态，坚持正版高清发布，做用户首选的可信赖视频平台。</p>
+        <div class="blk-hero-actions">
+          <a class="blk-btn blk-btn-primary" href="#blk-videos">▶ 立即观看今日内容</a>
+          <a class="blk-btn blk-btn-ghost" href="#blk-series">查看专题企划</a>
+          <button class="blk-btn blk-btn-ink" type="button" id="blkHeroSubmit">加入共创投稿</button>
+        </div>
+        <div class="blk-stats">
+          <div class="blk-stat"><b>4,280<i>+</i></b><small>原创视频内容</small></div>
+          <div class="blk-stat"><b>168<i>万</i></b><small>社区常驻观众</small></div>
+          <div class="blk-stat"><b>620<i>+</i></b><small>签约创作者</small></div>
+        </div>
+      </div>
+      <div class="blk-hero-visual">
+        <figure>
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 620'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%232b2b2b'/%3E%3Cstop offset='1' stop-color='%23443a36'/%3E%3C/linearGradient%3E%3ClinearGradient id='beam' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23e03e2f' stop-opacity='.9'/%3E%3Cstop offset='1' stop-color='%23ffb199' stop-opacity='.1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='620' fill='url(%23sky)'/%3E%3Ccircle cx='600' cy='150' r='190' fill='url(%23beam)'/%3E%3Cg fill='%23181818'%3E%3Crect x='0' y='400' width='800' height='220'/%3E%3Crect x='70' y='250' width='120' height='200'/%3E%3Crect x='220' y='300' width='90' height='150'/%3E%3Crect x='340' y='210' width='140' height='240'/%3E%3Crect x='520' y='280' width='110' height='170'/%3E%3Crect x='660' y='230' width='100' height='220'/%3E%3C/g%3E%3Cg fill='%23ffd9a3' opacity='.85'%3E%3Crect x='92' y='276' width='18' height='24'/%3E%3Crect x='124' y='276' width='18' height='24'/%3E%3Crect x='92' y='320' width='18' height='24'/%3E%3Crect x='124' y='320' width='18' height='24'/%3E%3Crect x='368' y='240' width='22' height='28'/%3E%3Crect x='404' y='240' width='22' height='28'/%3E%3Crect x='368' y='292' width='22' height='28'/%3E%3Crect x='404' y='292' width='22' height='28'/%3E%3Crect x='690' y='262' width='20' height='26'/%3E%3C/g%3E%3Cg fill='%23e03e2f'%3E%3Crect x='0' y='470' width='800' height='8' opacity='.65'/%3E%3C/g%3E%3Cg%3E%3Ccircle cx='260' cy='540' r='34' fill='%23121212'/%3E%3Ccircle cx='260' cy='512' r='15' fill='%23e03e2f'/%3E%3Ccircle cx='450' cy='552' r='40' fill='%23121212'/%3E%3Ccircle cx='450' cy='520' r='17' fill='%23f4a259'/%3E%3Ccircle cx='640' cy='545' r='30' fill='%23121212'/%3E%3Ccircle cx='640' cy='519' r='13' fill='%23e8c4a0'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.55'%3E%3Ccircle cx='120' cy='110' r='2.5'/%3E%3Ccircle cx='300' cy='80' r='2'/%3E%3Ccircle cx='470' cy='120' r='2.5'/%3E%3Ccircle cx='700' cy='70' r='2'/%3E%3Ccircle cx='210' cy='170' r='1.8'/%3E%3C/g%3E%3Cpath d='M330 470 L330 360 L420 415 Z' fill='%23e03e2f' opacity='.9'/%3E%3C/svg%3E" alt="爆料每日免费在线观看首屏主视觉:城市夜色中的纪实镜头与红色播放标识" width="800" height="620">
+        </figure>
+        <div class="blk-hero-badge">
+          <strong>今日 18:00 更新</strong>
+          <span>《夜班笔记》第 8 集 · 高清正版首发</span>
+        </div>
+        <div class="blk-hero-note">每日不间断</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPOTLIGHT ============ -->
+  <section class="blk-section alt" id="blk-spotlight">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Today's Spotlight</span>
+          <h2>今日焦点 · 爆料每日免费在线观看精选现场</h2>
+          <p>每天我们从数百条投稿与自制内容中挑出最值得停留的现场，编辑团队完成事实核对、画面修复与高清转码后发布。</p>
+        </div>
+        <div class="blk-head-aside">更新时间 2026-11-22 09:40</div>
+      </div>
+
+      <div class="blk-spotlight">
+        <article class="blk-focus">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 530'%3E%3Crect width='900' height='530' fill='%23f0eae0'/%3E%3Crect x='0' y='0' width='900' height='300' fill='%23dcd2c3'/%3E%3Cg%3E%3Crect x='60' y='190' width='150' height='210' fill='%238c7f6d'/%3E%3Crect x='235' y='140' width='130' height='260' fill='%236b6155'/%3E%3Crect x='390' y='210' width='170' height='190' fill='%23a2937f'/%3E%3Crect x='585' y='160' width='120' height='240' fill='%237d7161'/%3E%3Crect x='730' y='200' width='130' height='200' fill='%23544c42'/%3E%3C/g%3E%3Cg fill='%23fdf8ef'%3E%3Crect x='78' y='214' width='26' height='32'/%3E%3Crect x='118' y='214' width='26' height='32'/%3E%3Crect x='78' y='262' width='26' height='32'/%3E%3Crect x='118' y='262' width='26' height='32'/%3E%3Crect x='256' y='168' width='24' height='30'/%3E%3Crect x='296' y='168' width='24' height='30'/%3E%3Crect x='256' y='214' width='24' height='30'/%3E%3Crect x='296' y='214' width='24' height='30'/%3E%3Crect x='414' y='236' width='28' height='34'/%3E%3Crect x='460' y='236' width='28' height='34'/%3E%3Crect x='414' y='288' width='28' height='34'/%3E%3Crect x='460' y='288' width='28' height='34'/%3E%3Crect x='606' y='186' width='24' height='30'/%3E%3Crect x='646' y='186' width='24' height='30'/%3E%3Crect x='750' y='226' width='26' height='32'/%3E%3Crect x='792' y='226' width='26' height='32'/%3E%3C/g%3E%3Crect x='0' y='400' width='900' height='130' fill='%23c7b9a4'/%3E%3Cg%3E%3Crect x='120' y='420' width='60' height='80' fill='%23e03e2f'/%3E%3Ccircle cx='150' cy='404' r='12' fill='%23f4c9a0'/%3E%3Crect x='420' y='408' width='70' height='92' fill='%232b2b2b'/%3E%3Ccircle cx='455' cy='392' r='14' fill='%23f4c9a0'/%3E%3Crect x='700' y='430' width='55' height='70' fill='%233d6e5c'/%3E%3Ccircle cx='727' cy='414' r='11' fill='%23f4c9a0'/%3E%3C/g%3E%3Cg%3E%3Crect x='320' y='60' width='260' height='60' rx='8' fill='%23e03e2f'/%3E%3Ctext x='450' y='100' font-family='sans-serif' font-size='26' font-weight='bold' fill='%23fff' text-anchor='middle'%3EDAY 08%3C/text%3E%3C/g%3E%3C/svg%3E" alt="爆料每日免费在线观看焦点内容:老街区纪实镜头下的夜班人群" width="900" height="530">
+            <span class="blk-focus-play">▶ 正片 24:18</span>
+          </figure>
+          <div class="blk-focus-body">
+            <div class="blk-tags">
+              <span class="blk-tag red">今日首推</span>
+              <span class="blk-tag">城市探索</span>
+              <span class="blk-tag">深度纪实</span>
+              <span class="blk-tag">高清正版</span>
+            </div>
+            <h3>城市零点·夜班笔记 第 8 集：凌晨四点的早餐铺与守夜人</h3>
+            <p>《夜班笔记》走进一条正在改造的老街，跟拍三位夜班工作者：包子铺老板、便利店店员与代驾司机。镜头没有解说，只有锅气、脚步与收银机的声响，把一座城市最安静的四小时完整记录了下来。</p>
+            <div class="blk-meta">
+              <span>创作者 <b>拾光记录局</b></span>
+              <span>播放 <b>128.4 万</b></span>
+              <span>点赞 <b>9.7 万</b></span>
+              <span>收藏 <b>3.1 万</b></span>
+            </div>
+            <div class="blk-actions" data-block>
+              <button class="blk-act" type="button" data-like>♡ 点赞 <span data-like-count>97021</span></button>
+              <button class="blk-act" type="button" data-save>☆ 收藏</button>
+              <button class="blk-act" type="button" data-share>↗ 分享</button>
+              <button class="blk-act" type="button" data-submit>✎ 投稿同题</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="blk-spot-side">
+          <article class="blk-mini">
+            <div class="blk-thumb">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23d9e4ea'/%3E%3Ccircle cx='80' cy='64' r='26' fill='%235d7b8a'/%3E%3Crect x='42' y='96' width='76' height='48' rx='18' fill='%233f5a67'/%3E%3Ccircle cx='80' cy='120' r='10' fill='%23e03e2f'/%3E%3Crect x='10' y='10' width='34' height='8' rx='4' fill='%23ffffff' opacity='.7'/%3E%3C/svg%3E" alt="爆料每日免费在线观看焦点条目缩略图:访谈现场手持话筒的创作者" width="160" height="160">
+            </div>
+            <figcaption>
+              <h4>不修音的人生：独立音乐人访谈</h4>
+              <small>人物访谈 · 拾光记录局 · 18.6 万播放</small>
+            </figcaption>
+          </article>
+          <article class="blk-mini">
+            <div class="blk-thumb">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23f3e2c7'/%3E%3Ccircle cx='52' cy='52' r='30' fill='%23e0a34a'/%3E%3Crect x='88' y='36' width='46' height='46' rx='10' fill='%238c5a2b'/%3E%3Crect x='36' y='96' width='88' height='38' rx='12' fill='%23c9762f'/%3E%3Cpath d='M0 148 L160 118 L160 160 L0 160 Z' fill='%23a85a22'/%3E%3C/svg%3E" alt="爆料每日免费在线观看焦点条目缩略图:厨房里的一碗手工面食" width="160" height="160">
+            </div>
+            <figcaption>
+              <h4>一个人做十碗面：小店日常记录</h4>
+              <small>美食烹饪 · 阿禾的厨房 · 42.3 万播放</small>
+            </figcaption>
+          </article>
+          <article class="blk-mini">
+            <div class="blk-thumb">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%232c2f3a'/%3E%3Crect x='20' y='70' width='14' height='50' fill='%23e03e2f'/%3E%3Crect x='46' y='48' width='14' height='72' fill='%23f4a259'/%3E%3Crect x='72' y='86' width='14' height='34' fill='%23e03e2f'/%3E%3Crect x='98' y='34' width='14' height='86' fill='%23f4a259'/%3E%3Crect x='124' y='60' width='14' height='60' fill='%23e03e2f'/%3E%3C/svg%3E" alt="爆料每日免费在线观看焦点条目缩略图:数据柱状图与红色强调色" width="160" height="160">
+            </div>
+            <figcaption>
+              <h4>年度口碑榜：观众最爱的 12 支片子</h4>
+              <small>品牌动态 · 官方编辑部 · 6.2 万阅读</small>
+            </figcaption>
+          </article>
+          <article class="blk-mini">
+            <div class="blk-thumb">
+              <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23e6efe7'/%3E%3Cpath d='M20 120 L60 60 L100 120 Z' fill='%234f7a5c'/%3E%3Cpath d='M70 120 L110 52 L150 120 Z' fill='%232f5b40'/%3E%3Ccircle cx='40' cy='40' r='16' fill='%23e8c76a'/%3E%3Crect x='0' y='126' width='160' height='34' fill='%23a3bfa9'/%3E%3C/svg%3E" alt="爆料每日免费在线观看焦点条目缩略图:郊野公园中的徒步人群剪影" width="160" height="160">
+            </div>
+            <figcaption>
+              <h4>周末去野外：新手徒步路线实测</h4>
+              <small>户外活动 · 山野小蔡 · 27.9 万播放</small>
+            </figcaption>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="blk-section" id="blk-videos">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Video Selection</span>
+          <h2>视频精选 · 爆料每日免费在线观看每日更新列表</h2>
+          <p>重点内容配封面，其余以文字条目呈现，方便在地铁里、工位上快速扫读；所有内容均为正版高清首发，支持离线下载。</p>
+        </div>
+        <div class="blk-head-aside">共 6 支新片 · 今日 12:00 起陆续上线</div>
+      </div>
+
+      <div class="blk-video-grid">
+        <article class="blk-vcard">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23e8eef1'/%3E%3Cg%3E%3Crect x='40' y='70' width='560' height='230' rx='18' fill='%23c3d3db'/%3E%3Crect x='66' y='100' width='230' height='140' rx='10' fill='%2389a6b4'/%3E%3Crect x='318' y='100' width='256' height='26' rx='6' fill='%23ffffff'/%3E%3Crect x='318' y='142' width='200' height='16' rx='5' fill='%23ffffff' opacity='.8'/%3E%3Crect x='318' y='172' width='230' height='16' rx='5' fill='%23ffffff' opacity='.6'/%3E%3Crect x='318' y='214' width='110' height='26' rx='13' fill='%23e03e2f'/%3E%3C/g%3E%3C/svg%3E" alt="爆料每日免费在线观看视频封面:电脑屏幕上的后台数据教程画面" width="640" height="360">
+            <span class="blk-vcard-time">12:42</span>
+          </figure>
+          <div class="blk-vcard-body">
+            <div class="blk-tags"><span class="blk-tag">教程干货</span><span class="blk-tag red">新手友好</span></div>
+            <h3>0 基础拍出稳定画面：三脚架、光线与运镜的 6 个细节</h3>
+            <p>从手持姿势到窗光布置，逐条演示手机拍摄的稳定技巧，附赠一份可直接打印的拍摄清单。</p>
+            <div class="blk-vfoot">
+              <span class="blk-author"><span class="blk-avatar" style="background:#5d7b8a">林</span>林见影</span>
+              <span>34.1 万播放</span>
+            </div>
+            <div class="blk-actions light" data-block>
+              <button class="blk-act" type="button" data-like>♡ 点赞 <span data-like-count>21508</span></button>
+              <button class="blk-act" type="button" data-save>☆ 收藏</button>
+              <button class="blk-act" type="button" data-share>↗ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="blk-vcard">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f7e6d2'/%3E%3Ccircle cx='150' cy='130' r='86' fill='%23e6a15e'/%3E%3Ccircle cx='150' cy='130' r='58' fill='%23c9752f'/%3E%3Cg fill='%23fff4e2'%3E%3Ccircle cx='128' cy='112' r='9'/%3E%3Ccircle cx='172' cy='128' r='11'/%3E%3Ccircle cx='146' cy='158' r='8'/%3E%3C/g%3E%3Crect x='300' y='80' width='280' height='210' rx='18' fill='%23fdf7ec'/%3E%3Crect x='328' y='110' width='150' height='18' rx='6' fill='%23b98a54'/%3E%3Crect x='328' y='148' width='220' height='12' rx='5' fill='%23d8c2a2'/%3E%3Crect x='328' y='176' width='190' height='12' rx='5' fill='%23d8c2a2'/%3E%3Crect x='328' y='216' width='96' height='30' rx='15' fill='%23e03e2f'/%3E%3C/svg%3E" alt="爆料每日免费在线观看视频封面:厨房里正在翻炒的琥珀色酱汁" width="640" height="360">
+            <span class="blk-vcard-time">09:15</span>
+          </figure>
+          <div class="blk-vcard-body">
+            <div class="blk-tags"><span class="blk-tag">美食烹饪</span><span class="blk-tag">生活方式</span></div>
+            <h3>十分钟一锅饭：上班族的五种懒人浇头配方</h3>
+            <p>把冰箱边角料变成下饭硬菜，五种配方共用一口锅，附带保存与复热时间表。</p>
+            <div class="blk-vfoot">
+              <span class="blk-author"><span class="blk-avatar" style="background:#c9752f">阿</span>阿禾的厨房</span>
+              <span>52.8 万播放</span>
+            </div>
+            <div class="blk-actions light" data-block>
+              <button class="blk-act" type="button" data-like>♡ 点赞 <span data-like-count>38940</span></button>
+              <button class="blk-act" type="button" data-save>☆ 收藏</button>
+              <button class="blk-act" type="button" data-share>↗ 分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="blk-vcard">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23dfe9e2'/%3E%3Cpath d='M0 300 L140 170 L280 300 Z' fill='%236a9580'/%3E%3Cpath d='M200 300 L360 130 L520 300 Z' fill='%234d7862'/%3E%3Cpath d='M420 300 L560 190 L640 300 Z' fill='%23355d49'/%3E%3Ccircle cx='520' cy='76' r='34' fill='%23f2d17c'/%3E%3Cpath d='M0 300 L640 300 L640 360 L0 360 Z' fill='%23b8ccb9'/%3E%3Cg stroke='%23ffffff' stroke-width='6' fill='none' opacity='.7'%3E%3Cpath d='M60 330 q40 -22 80 0'/%3E%3Cpath d='M300 340 q40 -22 80 0'/%3E%3C/g%3E%3C/svg%3E" alt="爆料每日免费在线观看视频封面:三层山脊剪影与远处落日" width="640" height="360">
+            <span class="blk-vcard-time">15:30</span>
+          </figure>
+          <div class="blk-vcard-body">
+            <div class="blk-tags"><span class="blk-tag">户外活动</span><span class="blk-tag">深度测评</span></div>
+            <h3>三条郊区路线对比实测：哪条最适合第一次夜爬</h3>
+            <p>从路面难度、补给点到返程交通，逐项打分，给出一条最适合新手起步的夜间路线。</p>
+            <div class="blk-vfoot">
+              <span class="blk-author"><span class="blk-avatar" style="background:#4d7862">蔡</span>山野小蔡</span>
+              <span>41.6 万播放</span>
+            </div>
+            <div class="blk-actions light" data-block>
+              <button class="blk-act" type="button" data-like>♡ 点赞 <span data-like-count>27613</span></button>
+              <button class="blk-act" type="button" data-save>☆ 收藏</button>
+              <button class="blk-act" type="button" data-share>↗ 分享</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="blk-rows">
+        <article class="blk-row">
+          <span class="blk-row-idx">01</span>
+          <div class="blk-row-main">
+            <strong>菜市场里的十年：摊主老周的一天</strong>
+            <span>日常记录 · 拾光记录局 · 18 分钟 · 8.9 万点赞</span>
+          </div>
+          <span class="blk-row-side">播放 96.2 万</span>
+        </article>
+        <article class="blk-row">
+          <span class="blk-row-idx">02</span>
+          <div class="blk-row-main">
+            <strong>剪辑节奏怎么练：给新手的三个拆片练习</strong>
+            <span>教程干货 · 林见影 · 11 分钟 · 3.1 万点赞</span>
+          </div>
+          <span class="blk-row-side">播放 27.4 万</span>
+        </article>
+        <article class="blk-row">
+          <span class="blk-row-idx">03</span>
+          <div class="blk-row-main">
+            <strong>雨天也很好拍：低光环境下的手机影像实验</strong>
+            <span>创作幕后 · 阿默影像 · 14 分钟 · 2.6 万点赞</span>
+          </div>
+          <span class="blk-row-side">播放 19.8 万</span>
+        </article>
+        <article class="blk-row">
+          <span class="blk-row-idx">04</span>
+          <div class="blk-row-main">
+            <strong>旧物新生：一张木椅的修复全过程</strong>
+            <span>手作 DIY · 木与钉 · 22 分钟 · 4.4 万点赞</span>
+          </div>
+          <span class="blk-row-side">播放 35.7 万</span>
+        </article>
+        <article class="blk-row">
+          <span class="blk-row-idx">05</span>
+          <div class="blk-row-main">
+            <strong>深夜便利店观察：凌晨两点的城市温度</strong>
+            <span>城市探索 · 小满观察 · 16 分钟 · 5.2 万点赞</span>
+          </div>
+          <span class="blk-row-side">播放 61.3 万</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERIES ============ -->
+  <section class="blk-section alt" id="blk-series">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Series &amp; Campaign</span>
+          <h2>专题企划 · 爆料每日免费在线观看的长期叙事</h2>
+          <p>我们不追逐一次性热点，而是用有节奏的专题把一件件事讲完整：城市、手艺、人与日常。</p>
+        </div>
+        <div class="blk-head-aside">3 个在更专题 · 每周三 / 周六更新</div>
+      </div>
+
+      <div class="blk-series">
+        <article class="blk-series-feature">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 860 480'%3E%3Crect width='860' height='480' fill='%23f4ede2'/%3E%3Crect x='0' y='0' width='860' height='250' fill='%23e2d6c1'/%3E%3Cg fill='%23b3a48c'%3E%3Crect x='60' y='150' width='120' height='190'/%3E%3Crect x='200' y='110' width='90' height='230'/%3E%3Crect x='310' y='170' width='140' height='170'/%3E%3Crect x='470' y='130' width='100' height='210'/%3E%3Crect x='590' y='160' width='130' height='180'/%3E%3Crect x='740' y='120' width='90' height='220'/%3E%3C/g%3E%3Cg fill='%23fdf6e9'%3E%3Crect x='76' y='172' width='22' height='26'/%3E%3Crect x='112' y='172' width='22' height='26'/%3E%3Crect x='76' y='214' width='22' height='26'/%3E%3Crect x='112' y='214' width='22' height='26'/%3E%3Crect x='216' y='134' width='20' height='24'/%3E%3Crect x='250' y='134' width='20' height='24'/%3E%3Crect x='216' y='172' width='20' height='24'/%3E%3Crect x='486' y='152' width='20' height='24'/%3E%3Crect x='520' y='152' width='20' height='24'/%3E%3Crect x='606' y='182' width='22' height='26'/%3E%3Crect x='646' y='182' width='22' height='26'/%3E%3C/g%3E%3Crect x='0' y='340' width='860' height='140' fill='%23c9b8a0'/%3E%3Cg%3E%3Cpath d='M120 480 L120 400 L190 400 L190 480 Z' fill='%23e03e2f'/%3E%3Ccircle cx='155' cy='386' r='15' fill='%23f4c9a0'/%3E%3Cpath d='M420 480 L420 396 L500 396 L500 480 Z' fill='%232b2b2b'/%3E%3Ccircle cx='460' cy='380' r='16' fill='%23f4c9a0'/%3E%3Cpath d='M690 480 L690 410 L756 410 L756 480 Z' fill='%233d6e5c'/%3E%3Ccircle cx='723' cy='396' r='14' fill='%23f4c9a0'/%3E%3C/g%3E%3C/svg%3E" alt="爆料每日免费在线观看专题企划主图:老城街区与行走的居民剪影" width="860" height="480">
+          <div class="blk-series-body">
+            <div class="blk-tags"><span class="blk-tag red">在更中</span><span class="blk-tag">城市探索</span><span class="blk-tag">赞助企划</span></div>
+            <h3>《城市零点》第二季：八座城市的四个小时</h3>
+            <p>我们把镜头架在城市的凌晨，记录还在工作的人。第二季走进八座城市，每一集只讲一个时间段、一类职业、一种坚持。专题由官方编辑部统筹拍摄，全部内容为原创正版，支持高清下载与二次授权申请。</p>
+            <div class="blk-meta">
+              <span>已上线 <b>8 集</b></span>
+              <span>累计播放 <b>742 万</b></span>
+              <span>更新时间 <b>每周六 18:00</b></span>
+            </div>
+          </div>
+        </article>
+
+        <div class="blk-series-list">
+          <article class="blk-series-item">
+            <header>
+              <h4>《手上有光》——手艺人的一天</h4>
+              <span class="blk-status live">在更中</span>
+            </header>
+            <p>走近修复师、木匠、缝纫师与陶艺作者，记录手艺人的工序、工具和耐心。每集用一整段不剪辑的劳作画面收尾。</p>
+            <ul>
+              <li>第 6 集 · 一张旧木椅的 14 道工序</li>
+              <li>第 7 集 · 缝纫机上的三十年</li>
+              <li>第 8 集 · 陶土在指尖安静下来</li>
+            </ul>
+          </article>
+          <article class="blk-series-item">
+            <header>
+              <h4>《身边的小现场》共创征集</h4>
+              <span class="blk-status">征集报名中</span>
+            </header>
+            <p>面向所有社区创作者开放：拍下你身边正在发生的小事，可以是摊位、楼道、雨后的球场。入选作品将由官方团队协助调色与高清发布。</p>
+            <ul>
+              <li>本期主题 · 我窗外的十分钟</li>
+              <li>投稿时间 · 11 月 20 日至 12 月 10 日</li>
+              <li>入选权益 · 首页推荐位与创作扶持金</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CREATORS ============ -->
+  <section class="blk-section" id="blk-creators">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Creators</span>
+          <h2>创作者矩阵 · 爆料每日免费在线观看的内容中坚</h2>
+          <p>他们有的在城市里跑线，有的守在厨房与工坊。平台为签约创作者提供高清转码、版权登记、收益结算与选题共创支持。</p>
+        </div>
+        <div class="blk-head-aside">620+ 签约创作者 · 每月新增约 30 位</div>
+      </div>
+
+      <div class="blk-creators">
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#5d7b8a">拾</span>
+            <div><strong>拾光记录局</strong><small>城市探索 · 深度纪实</small></div>
+          </div>
+          <p>在城南长大的摄影师，习惯凌晨出门、天亮回家。擅长长镜头与现场声设计，坚持不摆拍、不加旁白，用完整的空间感让人自己看见故事。团队三人，均参与拍摄与剪辑。</p>
+          <div class="blk-creator-stats"><span><b>128</b> 作品</span><span><b>46.3万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="拾光记录局|城市探索 · 深度纪实|128|46.3万">查看档案 →</button>
+        </article>
+
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#c9752f">阿</span>
+            <div><strong>阿禾的厨房</strong><small>美食烹饪 · 家常实用</small></div>
+          </div>
+          <p>前餐厅后厨，现在在家拍菜。视频里没有花哨摆盘，只有配料表、火候和失败过的版本。她相信一道菜的价值在于能被反复做出来，因此每条配方都会自己实测三遍以上才发布。</p>
+          <div class="blk-creator-stats"><span><b>96</b> 作品</span><span><b>38.7万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="阿禾的厨房|美食烹饪 · 家常实用|96|38.7万">查看档案 →</button>
+        </article>
+
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#4d7862">蔡</span>
+            <div><strong>山野小蔡</strong><small>户外活动 · 路线实测</small></div>
+          </div>
+          <p>户外向导出身，做视频的初衷是让新手少走弯路。每条路线都会标注补给点、信号盲区与撤退口，并把天气与体力消耗如实写进简介，拒绝把风险说成浪漫。</p>
+          <div class="blk-creator-stats"><span><b>74</b> 作品</span><span><b>29.5万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="山野小蔡|户外活动 · 路线实测|74|29.5万">查看档案 →</button>
+        </article>
+
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#8a5d8f">林</span>
+            <div><strong>林见影</strong><small>教程干货 · 影像技术</small></div>
+          </div>
+          <p>影视后期从业者，擅长把复杂的拍摄与剪辑知识拆成可执行的动作。视频结构固定为“问题、示范、清单”，每期结尾附一份可下载的检查表，被不少新手当作入门教材。</p>
+          <div class="blk-creator-stats"><span><b>152</b> 作品</span><span><b>51.2万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="林见影|教程干货 · 影像技术|152|51.2万">查看档案 →</button>
+        </article>
+
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#b0542f">木</span>
+            <div><strong>木与钉</strong><small>手作 DIY · 旧物修复</small></div>
+          </div>
+          <p>木工房主理人，专注旧物修复与小件家具。视频节奏慢，但每道工序都拍全，工具名、木料与涂装方式写在字幕里。他说修东西的过程，其实是在练习如何对待时间。</p>
+          <div class="blk-creator-stats"><span><b>68</b> 作品</span><span><b>22.4万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="木与钉|手作 DIY · 旧物修复|68|22.4万">查看档案 →</button>
+        </article>
+
+        <article class="blk-creator">
+          <div class="blk-creator-top">
+            <span class="blk-creator-ava" style="background:#3f5a67">满</span>
+            <div><strong>小满观察</strong><small>人物访谈 · 行业观察</small></div>
+          </div>
+          <p>前媒体记者，现在做长访谈。习惯让受访者先讲完，再决定问题。她的视频常被评价为“安静但有力量”，访谈素材利用率不到两成，剩下的都被她留在硬盘里当作备忘。</p>
+          <div class="blk-creator-stats"><span><b>58</b> 作品</span><span><b>33.8万</b> 粉丝</span></div>
+          <button class="blk-link-more" type="button" data-creator="小满观察|人物访谈 · 行业观察|58|33.8万">查看档案 →</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PARSE / BRAND DEEP DIVE ============ -->
+  <section class="blk-section alt" id="blk-parse">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Brand Insight</span>
+          <h2>品牌解读 · 为什么我们坚持爆料每日免费在线观看的内容方式</h2>
+          <p>一个视频品牌真正的护城河，不是库存数量，而是它如何定义“值得被拍下来”的标准。</p>
+        </div>
+      </div>
+
+      <div class="blk-parse">
+        <div>
+          <h3>一、从“爆料”到“记录”：我们理解的真实</h3>
+          <p>“爆料”这个词在网络上常被理解为猎奇与速朽，但在爆料每日免费在线观看的编辑室里，它对应的是另一套标准：一件事被拍到之后，是否经得起再看一遍。我们要求每个选题至少回答三个问题——谁在现场、发生了什么、为什么值得留下。只有回答完这三个问题，素材才会进入剪辑流程。作为一家持续运营的视频企业，我们更愿意把“爆料”理解为对真实的第一时间抵达，而不是对情绪的第一时间消费。</p>
+          <p>因此，网站上的每一条内容都会经历事实核对、素材补拍、声音校准与高清转码四道工序。对突发类内容，我们保留现场原声，仅做必要的信息标注；对故事类内容，我们坚持让当事人自己叙述，尽量减少解说词对判断的干扰。这种略显笨拙的生产方式，让我们的更新速度不如流水线账号，但它构成了<strong>品牌口碑</strong>的底座：观众知道点开之后不会浪费时间。</p>
+          <p>在内容结构上，我们把“爆料每日免费在线观看”拆成三个关键词：<strong>每日</strong>代表稳定更新节奏，<strong>免费在线</strong>代表开放的观看门槛，<strong>观看</strong>代表我们最终交付的是一次完整的观看体验，而不是十五秒的刺激。正因如此，我们为长视频单独设计了播放器、章节与字幕，为短片配置了清晰的标题与来源说明，让不同长度的内容各自获得体面的呈现空间。</p>
+
+          <h3>二、内容生态：创作者、社区与平台的三方关系</h3>
+          <p>视频平台的活力来自社区，而社区的活力来自创作者被认真对待。我们为签约创作者提供三项基础支持：一是高清转码与多端适配，让手机拍摄的素材在电视上也能看；二是版权登记与授权协助，原创内容可以申请备案与二次授权；三是选题共创，编辑部会把近期观众高频关注的议题整理成公开的选题池，供创作者认领。这套机制让创作者不必独自承担全部判断风险，也让平台的<strong>内容生态</strong>更接近一个可持续运转的循环。</p>
+          <p>观众一侧，我们坚持“轻互动、重反馈”。点赞、收藏与分享是基础动作，更重要的是每一条视频下方都有明确的反馈入口：哪里看不懂、哪里觉得不准确、希望我们补拍什么。编辑团队每周会汇总一次反馈清单，并在企业动态中公开说明哪些建议被采纳。我们不承诺每条意见都能实现，但承诺每条意见都会被读到。这种朴素的回应机制，比任何宣传语都更能积累<strong>用户首选</strong>的信任。</p>
+          <p>同时，我们明确内容边界：不做未经核实的指控，不公开普通人的隐私信息，不把未成年人与弱势处境当作流量素材。社会责任不是页脚上的一句话，而是选题会上真实的否决权。我们相信，只有边界清晰，<strong>影响力</strong>才有意义。</p>
+
+          <h3>三、观看体验：免费、高清与可及的平衡</h3>
+          <p>“免费在线观看”是我们对外的承诺，但这不意味着内容可以粗糙。相反，免费意味着更高的品质门槛：观众没有付费义务，只有随时离开的权利。为此，我们把成本集中投入在三个环节。第一是画质，所有重点内容均以高清标准制作与分发，支持在网络条件允许时自动切换清晰度；第二是加载速度，页面与播放器经过轻量化处理，减少不必要的等待；第三是可读性，每条内容都有完整的标题、摘要、标签与创作者信息，观众不必靠猜来判断是否值得看。</p>
+          <p>我们也在持续完善无障碍细节：为视频提供字幕，为图片提供具体描述，为键盘操作保留焦点样式。这些工作不产生播放量，却决定了平台是否真正“可及”。在移动端，页面会优先加载首屏与视频列表，评论与详情按需展开；在弱网环境下，文字条目依然可读，观众可以先浏览再决定是否播放。这些看似琐碎的工程决定，最终汇聚成<strong>值得信赖</strong>的观看体验。</p>
+
+          <h3>四、长期主义：一个视频品牌如何穿越周期</h3>
+          <p>短视频行业变化很快，模板、风格与话题几乎每年翻新。我们选择把变化留给表达方式，把不变留给判断标准。六年来，爆料每日免费在线观看的选题原则几乎没有调整：现场优先、当事人优先、完整叙述优先。围绕这套原则，我们逐步搭起专题企划、创作者矩阵、口碑评价与投稿共创四个支柱，让内容不依赖某一个人的灵感，而是依赖一套可以重复执行的流程。</p>
+          <p>未来一年，我们会把更多资源投向两个方向：一是城市与地域的长期影像档案，用统一的拍摄规范记录正在消失的街景与手艺；二是新人创作者的成长路径，通过比赛、共创与编辑带教，让第一次拿起相机的人也能完成一支完整的片子。我们深知，一个品牌的<strong>匠心</strong>不体现在口号里，而体现在它愿意为不确定的结果持续投入。爆料每日免费在线观看会继续做这件慢一点的事：每天更新，认真核对，把值得留下的现场留在画面里。</p>
+        </div>
+
+        <aside class="blk-aside-stack">
+          <div class="blk-aside-card">
+            <h4>平台关键数据</h4>
+            <ul>
+              <li><span>原创视频总量</span><b>4,280+</b></li>
+              <li><span>签约创作者</span><b>620+</b></li>
+              <li><span>月度活跃观众</span><b>168 万</b></li>
+              <li><span>专题企划在更</span><b>3 个</b></li>
+              <li><span>内容平均时长</span><b>14 分 32 秒</b></li>
+            </ul>
+          </div>
+          <div class="blk-aside-card">
+            <h4>内容生产流程</h4>
+            <ul>
+              <li><span>1 选题共创</span><b>编辑部 + 创作者</b></li>
+              <li><span>2 现场拍摄</span><b>双机位实录</b></li>
+              <li><span>3 事实核对</span><b>双人复核</b></li>
+              <li><span>4 剪辑调色</span><b>统一影像规范</b></li>
+              <li><span>5 高清发布</span><b>多端适配</b></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVALUATIONS ============ -->
+  <section class="blk-section" id="blk-evals">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Community Voice</span>
+          <h2>用户口碑 · 爆料每日免费在线观看社区里的真实声音</h2>
+          <p>评价来自社区观众的公开留言与站内问卷，我们保留原始语气，不做修饰。</p>
+        </div>
+        <div class="blk-head-aside">综合评分 4.8 / 5 · 样本 12,406 份</div>
+      </div>
+
+      <div class="blk-evals">
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#5d7b8a">陈</span><b>陈屿</b><small>11 月 20 日</small></div>
+          <div class="blk-stars">★★★★★</div>
+          <p>《夜班笔记》我从第一集追到第八集。最打动我的是它不急着给结论，只是把四个小时摆在那里。看完之后我下楼买了两个包子，觉得那座城市和我有关系了。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#c9752f">李</span><b>李慢</b><small>11 月 18 日</small></div>
+          <div class="blk-stars">★★★★☆</div>
+          <p>菜谱类内容很少见到这么克制的。没有“绝了”“巨好吃”，只有配料和火候。我照着做了三次，第三次终于成功了。扣一星是因为希望配料表能再放大一点。</p>
+        </article>
+
+        <article class="blk-eval blk-eval-wide">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#4d7862">周</span><b>周行野</b><small>11 月 17 日</small></div>
+          <div class="blk-stars">★★★★★</div>
+          <p>作为一条经常自己跑山的人，我特别认可山野小蔡把“撤退口”和“信号盲区”写进简介。这种东西在短视频里几乎没人讲，但对新手来说就是保命的信息。平台愿意推这样的内容，说明它真的把用户放在心上。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#8a5d8f">许</span><b>许一诺</b><small>11 月 16 日</small></div>
+          <div class="blk-stars">★★★★★</div>
+          <p>把剪辑课讲成可以照着做的步骤，每期结尾还有检查表，下载下来贴在工位上。对自学者很友好。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#b0542f">黄</span><b>黄阿木</b><small>11 月 15 日</small></div>
+          <div class="blk-stars">★★★★☆</div>
+          <p>手作视频的节奏很少见，慢但不拖。唯一的问题是我想买同款工具，链接总是过期，希望官方商店能跟上。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#3f5a67">赵</span><b>赵小满</b><small>11 月 14 日</small></div>
+          <div class="blk-stars">★★★★★</div>
+          <p>投稿过一次《身边的小现场》，三天后收到编辑的邮件，逐条对我说了问题和改进建议。虽然没入选，但那次反馈比我上过的课有用。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#6b7f4e">吴</span><b>吴听雨</b><small>11 月 12 日</small></div>
+          <div class="blk-stars">★★★★☆</div>
+          <p>播放很流畅，手机上也不卡。字幕做得细，有环境音标注。希望以后能加一个只看专题的筛选。</p>
+        </article>
+
+        <article class="blk-eval">
+          <div class="blk-eval-top"><span class="blk-avatar" style="background:#a0522d">郑</span><b>郑舟</b><small>11 月 11 日</small></div>
+          <div class="blk-stars">★★★★★</div>
+          <p>难得看到一个网站愿意把页面做得这么干净。没有弹窗，没有自动播放，看完一条可以安静地离开。</p>
+        </article>
+      </div>
+
+      <div class="blk-quote" style="margin-top:22px">
+        <p>“我们不是在制造话题，而是在整理那些容易被忽略的现场。观众愿意留下来，是因为他们知道这里的内容被认真对待过。”</p>
+        <cite>—— 爆料每日免费在线观看 编辑部 · 2026 年度内容回顾</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWS / PARTNERS / FAQ ============ -->
+  <section class="blk-section alt" id="blk-news">
+    <div class="blk-wrap">
+      <div class="blk-head">
+        <div class="blk-head-txt">
+          <span class="blk-kicker">Company &amp; Help</span>
+          <h2>企业动态 · 爆料每日免费在线观看的官方发布</h2>
+          <p>产品更新、活动报名与合作伙伴信息，均在此统一发布，避免信息分散。</p>
+        </div>
+      </div>
+
+      <div class="blk-news">
+        <div>
+          <div class="blk-timeline">
+            <article class="blk-tl-item">
+              <time>2026-11-22</time>
+              <h4>《城市零点》第二季全 8 集上线</h4>
+              <p>专题页支持章节跳转与字幕切换，高清版同步开放下载，会员与普通用户均可观看完整内容。</p>
+            </article>
+            <article class="blk-tl-item">
+              <time>2026-11-18</time>
+              <h4>「身边的小现场」第 12 期开启报名</h4>
+              <p>本期主题为“我窗外的十分钟”，投稿截止 12 月 10 日，入选作品将获得首页推荐与创作扶持金。</p>
+            </article>
+            <article class="blk-tl-item">
+              <time>2026-11-12</time>
+              <h4>2026 年度口碑榜提名投票启动</h4>
+              <p>榜单由观众投票与编辑评审共同决定，每人每日可投 3 票，最终结果将于 12 月下旬公布。</p>
+            </article>
+            <article class="blk-tl-item">
+              <time>2026-11-05</time>
+              <h4>客户端 3.2 版本更新</h4>
+              <p>新增离线缓存、播放进度跨端同步与夜间阅读模式，修复了部分机型字幕错位的问题。</p>
+            </article>
+          </div>
+
+          <div class="blk-head" style="margin-top:34px;margin-bottom:18px">
+            <div class="blk-head-txt">
+              <span class="blk-kicker">Partners</span>
+              <h2 style="font-size:1.35rem">合作品牌与伙伴</h2>
+            </div>
+          </div>
+          <div class="blk-partners">
+            <div class="blk-partner"><b>城市影像档案馆</b><span>联合出品 · 城市纪实</span></div>
+            <div class="blk-partner"><b>木石工坊</b><span>内容共建 · 手作专题</span></div>
+            <div class="blk-partner"><b>山行户外装备</b><span>路线安全支持</span></div>
+            <div class="blk-partner"><b>邻里社区服务中心</b><span>公益影像合作</span></div>
+          </div>
+        </div>
+
+        <div id="blk-faq">
+          <div class="blk-head" style="margin-bottom:18px">
+            <div class="blk-head-txt">
+              <span class="blk-kicker">FAQ</span>
+              <h2 style="font-size:1.35rem">常见问题</h2>
+            </div>
+          </div>
+          <div class="blk-faq">
+            <details>
+              <summary>爆料每日免费在线观看需要注册才能看吗？</summary>
+              <p>不需要。所有公开内容均可免费在线观看，注册用户可额外获得收藏同步、观看历史与投稿入口。</p>
+            </details>
+            <details>
+              <summary>视频可以下载到本地吗？</summary>
+              <p>官方客户端支持重点内容的高清缓存与离线观看。网页端不提供直接下载，如需二次使用请通过联系邮箱提交授权申请。</p>
+            </details>
+            <details>
+              <summary>如何向平台投稿自己的视频？</summary>
+              <p>点击页面右上角“投稿爆料”或首屏的共创按钮，填写主题、素材说明与联系方式即可。编辑部会在五个工作日内回复。</p>
+            </details>
+            <details>
+              <summary>投稿内容有什么要求？</summary>
+              <p>须为原创或已获得合法授权，画面稳定、声音清晰，涉及他人肖像与隐私需取得同意。我们不接受未经核实的事件指控类内容。</p>
+            </details>
+            <details>
+              <summary>专题企划多久更新一次？</summary>
+              <p>《城市零点》每周六更新，《手上有光》每周三更新，共创专题按征集周期集中发布。</p>
+            </details>
+            <details>
+              <summary>我可以在别的平台转载这里的视频吗？</summary>
+              <p>需先取得书面授权，并在显著位置标注来源与作者。商业用途请通过合作邮箱说明使用场景与周期。</p>
+            </details>
+            <details>
+              <summary>发现内容有误或希望更正怎么办？</summary>
+              <p>请在对应视频下方使用反馈入口，或发送邮件至官方合作邮箱，注明时间点与具体问题，我们会尽快核实并公开说明。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="blk-footer">
+  <div class="blk-wrap">
+    <div class="blk-footer-grid">
+      <div>
+        <div class="blk-footer-brand">
+          <span class="blk-logo-mark">爆</span>
+          <strong>爆料每日</strong>
+        </div>
+        <p>爆料每日免费在线观看官方网站，专注每日纪实影像与原创视频内容，聚合创作者、企业与社区，持续运营值得信赖的内容生态。所有重点内容均为正版高清发布。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#blk-spotlight">今日焦点</a></li>
+          <li><a href="#blk-videos">视频精选</a></li>
+          <li><a href="#blk-series">专题企划</a></li>
+          <li><a href="#blk-creators">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#blk-parse">品牌解读</a></li>
+          <li><a href="#blk-news">企业动态</a></li>
+          <li><a href="#blk-evals">用户口碑</a></li>
+          <li><a href="#blk-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系与投稿</h4>
+        <ul>
+          <li><a href="#blk-top" data-submit>投稿爆料</a></li>
+          <li><a href="#blk-top" data-share>分享本页</a></li>
+          <li><a href="mailto:hello@baoliaodaily.example">合作邮箱</a></li>
+          <li><a href="#blk-faq">版权与授权</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blk-footer-bottom">
+      <span>© 2026 爆料每日免费在线观看 官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容备案号 2026-BLD-1182 · 广播电视节目制作经营许可（示例）</span>
+      <span>品质内容 · 用户至上 · 匠心记录</span>
+    </div>
+  </div>
+</footer>
+
+<button class="blk-totop" type="button" id="blkTopBtn" aria-label="回到顶部">↑</button>
+
+<div class="blk-modal" id="blkModal" role="dialog" aria-modal="true" aria-labelledby="blkModalTitle">
+  <div class="blk-modal-box">
+    <button class="blk-modal-close" type="button" id="blkModalClose" aria-label="关闭">×</button>
+    <div id="blkModalContent"></div>
+  </div>
+</div>
+
+<div class="blk-toast" id="blkToast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('blkToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* ---------- mobile nav ---------- */
+  var burger = document.getElementById('blkBurger');
+  var mobileNav = document.getElementById('blkMobileNav');
+  burger.addEventListener('click', function(){
+    var open = burger.getAttribute('aria-expanded') === 'true';
+    burger.setAttribute('aria-expanded', String(!open));
+    mobileNav.classList.toggle('on', !open);
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('on');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- search feedback ---------- */
+  var searchInput = document.getElementById('blkSearchInput');
+  var searchBtn = document.getElementById('blkSearchBtn');
+  var searchFb = document.getElementById('blkSearchFeedback');
+  var searchPool = [
+    '城市零点 夜班笔记',
+    '十分钟一锅饭 懒人浇头',
+    '手机拍摄 稳定画面 教程',
+    '郊区夜爬 路线实测',
+    '旧木椅修复 手作',
+    '独立音乐人 访谈',
+    '菜市场十年 摊主老周',
+    '剪辑节奏 拆片练习',
+    '矮桌 手作 木工'
+  ];
+  function doSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchFb.innerHTML = '试试搜索“夜班笔记”“懒人浇头”或“路线实测”。';
+      searchFb.classList.add('on');
+      return;
+    }
+    var hit = searchPool.filter(function(item){ return item.indexOf(q) !== -1; });
+    if(hit.length){
+      searchFb.innerHTML = '找到 <strong>' + hit.length + '</strong> 条相关内容：' + hit.slice(0,3).join('、') + '。';
+    } else {
+      searchFb.innerHTML = '暂未找到与“<strong>' + q.replace(/[<>&]/g,'') + '</strong>”直接匹配的内容，可换个关键词，或前往「视频精选」浏览今日更新。';
+    }
+    searchFb.classList.add('on');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+  searchInput.addEventListener('input', function(){
+    if(!searchInput.value.trim()){ searchFb.classList.remove('on'); }
+  });
+
+  /* ---------- like / save ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-like]');
+    if(likeBtn){
+      var numEl = likeBtn.querySelector('[data-like-count]');
+      var base = parseInt(numEl.textContent.replace(/[^\d]/g,''), 10) || 0;
+      var liked = likeBtn.classList.toggle('liked');
+      numEl.textContent = liked ? base + 1 : Math.max(0, base - 1);
+      likeBtn.childNodes[0].nodeValue = liked ? '♥ 已赞 ' : '♡ 点赞 ';
+      toast(liked ? '已点赞，感谢支持原创内容' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('saved');
+      saveBtn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      toast(saved ? '已加入收藏，可在个人中心查看' : '已取消收藏');
+    }
+  });
+
+  /* ---------- modal helpers ---------- */
+  var modal = document.getElementById('blkModal');
+  var modalContent = document.getElementById('blkModalContent');
+  var modalClose = document.getElementById('blkModalClose');
+  function openModal(html){
+    modalContent.innerHTML = html;
+    modal.classList.add('on');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    modal.classList.remove('on');
+    document.body.style.overflow = '';
+  }
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){
+    if(e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && modal.classList.contains('on')) closeModal();
+  });
+
+  /* ---------- share ---------- */
+  function shareHTML(){
+    return '<h3 id="blkModalTitle">分享这支爆料内容</h3>' +
+      '<p class="sub">把值得被看见的现场，转给同样关心它的人。</p>' +
+      '<div class="blk-share-row">' +
+        '<button class="blk-share-btn" type="button" data-copy>复制链接</button>' +
+        '<button class="blk-share-btn" type="button" data-wechat>微信</button>' +
+        '<button class="blk-share-btn" type="button" data-weibo>微博</button>' +
+        '<button class="blk-share-btn" type="button" data-qq>QQ</button>' +
+      '</div>' +
+      '<p class="sub" style="margin-top:14px;margin-bottom:0">提示：复制链接后可粘贴到任意聊天窗口；其他渠道为分享提示，不会跳转外部页面。</p>';
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-share]')){
+      e.preventDefault();
+      openModal(shareHTML());
+      return;
+    }
+    if(e.target.closest('[data-copy]')){
+      var link = 'https://baoliaodaily.example/video/2026-11-22';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){ toast('链接已复制'); }).catch(function(){ toast('复制失败，请手动选择文本'); });
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = link;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); toast('链接已复制'); }
+        catch(err){ toast('复制失败，请手动选择文本'); }
+        document.body.removeChild(ta);
+      }
+      return;
+    }
+    if(e.target.closest('[data-wechat]')){ toast('已生成微信分享提示'); return; }
+    if(e.target.closest('[data-weibo]')){ toast('已生成微博分享提示'); return; }
+    if(e.target.closest('[data-qq]')){ toast('已生成 QQ 分享提示'); return; }
+  });
+
+  /* ---------- submit ---------- */
+  function submitHTML(){
+    return '<h3 id="blkModalTitle">投稿爆料 / 加入共创</h3>' +
+      '<p class="sub">填写基本信息，编辑部会在五个工作日内回复。请确保素材为原创或已获授权。</p>' +
+      '<form id="blkSubmitForm">' +
+        '<div class="blk-field"><label for="blkF1">作品标题</label><input id="blkF1" name="title" type="text" placeholder="例如：我窗外的十分钟" required></div>' +
+        '<div class="blk-field"><label for="blkF2">内容方向</label>' +
+          '<select id="blkF2" name="topic">' +
+            '<option>城市探索</option><option>日常记录</option><option>教程干货</option>' +
+            '<option>人物访谈</option><option>手作 DIY</option><option>户外活动</option>' +
+          '</select></div>' +
+        '<div class="blk-field"><label for="blkF3">联系方式</label><input id="blkF3" name="contact" type="text" placeholder="邮箱或手机号" required></div>' +
+        '<div class="blk-field"><label for="blkF4">补充说明</label><textarea id="blkF4" name="note" placeholder="素材时长、拍摄设备、希望参与的专题等"></textarea></div>' +
+        '<button class="blk-btn blk-btn-primary" type="submit">提交投稿</button>' +
+      '</form>';
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-submit]') || e.target.closest('#blkSubmitBtn') || e.target.closest('#blkHeroSubmit')){
+      e.preventDefault();
+      openModal(submitHTML());
+    }
+  });
+  document.addEventListener('submit', function(e){
+    if(e.target && e.target.id === 'blkSubmitForm'){
+      e.preventDefault();
+      closeModal();
+      toast('投稿已提交，编辑部将在五个工作日内回复');
+    }
+  });
+
+  /* ---------- creator profile ---------- */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-creator]');
+    if(btn){
+      var parts = btn.getAttribute('data-creator').split('|');
+      openModal(
+        '<h3 id="blkModalTitle">' + parts[0] + '</h3>' +
+        '<p class="sub">' + parts[1] + '</p>' +
+        '<ul style="display:grid;gap:10px;font-size:14px;color:#3a3a3a;margin-bottom:16px">' +
+          '<li>作品数量：<b>' + parts[2] + '</b></li>' +
+          '<li>关注人数：<b>' + parts[3] + '</b></li>' +
+          '<li>签约状态：<b>官方签约创作者</b></li>' +
+          '<li>内容方向：正版高清首发 · 参与专题共创</li>' +
+        '</ul>' +
+        '<p class="sub" style="margin-bottom:0">该创作者的作品均可在「视频精选」中找到，支持收藏与分享。若希望合作，请通过页脚合作邮箱联系。</p>'
+      );
+    }
+  });
+
+  /* ---------- back to top ---------- */
+  var topBtn = document.getElementById('blkTopBtn');
+  window.addEventListener('scroll', function(){
+    topBtn.classList.toggle('on', window.scrollY > 520);
+  }, { passive:true });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+
+  /* ---------- anchor offset safety ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(id.length < 2) return;
+      var target = document.querySelector(id);
+      if(!target) return;
+      e.preventDefault();
+      var sticky = document.querySelector('.blk-sticky');
+      var offset = (sticky ? sticky.offsetHeight : 0) + 12;
+      var y = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: Math.max(0, y), behavior:'smooth' });
+      if(a.closest('.blk-mobile-nav')){ mobileNav.classList.remove('on'); burger.setAttribute('aria-expanded','false'); }
+    });
+  });
+})();
+</script>
+</body>
+          </html>
